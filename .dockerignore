@@ -1,0 +1,13 @@
+.git
+.github
+.env
+.env.*
+!.env.example
+.venv
+__pycache__
+.pytest_cache
+mlruns
+mlflow.db
+*.pyc
+eval_data
+tests

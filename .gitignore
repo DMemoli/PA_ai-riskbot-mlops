@@ -1,0 +1,19 @@
+# Credenciales y configuración local
+.env
+.env.*
+!.env.example
+
+# Entorno Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Experimentos MLflow locales
+mlruns/
+mlflow.db
+*.db-journal
+
+# Herramientas del editor
+.vscode/
+.idea/
